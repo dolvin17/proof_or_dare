@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import "tailwindcss";
+import "tailwindcss-animated";
 
 const config: Config = {
   content: [
@@ -15,6 +17,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 };
 export default config;
