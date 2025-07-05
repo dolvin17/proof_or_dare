@@ -22,13 +22,50 @@ Proof or Dare reimagines "Truth or Dare" as a Web3-native reputation system:
 1. **Verify with World ID** to prove you’re human.
 2. Start from **Level 1** with basic Truths and Dares.
 3. Submit **proofs** to complete challenges:
-   - Level 1 Truths:
-     - Wallet created at least 48h ago
-     - Wallet has a non-zero token balance
-     - At least 1 onchain tx
-   - Level 1 Dares:
-     - Interact with one World App mini app
-     - Receive a token from another wallet
+   ## Level 1 Truths: (Basic Onchain Interactions)
+
+    Validated via wallet read / ZK proof. These are low-barrier and likely already true for 98% worldchain users:
+
+    ✅ Wallet is older than 48 hours
+
+    ✅ Wallet holds at least 1 token (fungible or NFT)
+
+    ✅ Wallet has at least 1 onchain transaction
+
+    ✅ Wallet has a positive token balance (> 0.0001 ETH or equivalent)
+
+    ✅ Wallet has received at least 1 incoming transation
+
+    ✅ Wallet has sent at least 1 transaction
+
+    ✅ World ID verification completed
+
+    ✅ User has logged into at least one World App mini app
+
+    ✅ Wallet interacted with at least one smart contract
+
+    ✅ Wallet has at least one transaction on World Chain or any EVM chain
+   ##  Level 1 Dares:
+   - 
+   💥 Use any other World App mini app
+
+   🔁 Receive a token from another wallet (can be testnet or small amount)
+
+   🚀 Send any token to another wallet
+
+   🌍 Share your World ID QR code with a friend
+
+   🤝 Follow a World ecosystem project on Farcaster or Lens
+   
+   📤 Submit your first proof on Proof or Dare
+
+   🔎 View your wallet on World Chain block explorer
+
+   💬 Leave feedback through a simple form
+
+   🧩 Activate a second proof (e.g., combine balance + tx)
+
+   📲 Invite a friend to try a mini app by sharing a unique link
 
 4. Progress to higher levels with **evolving proofs**:
    - Level 2 Truths:
