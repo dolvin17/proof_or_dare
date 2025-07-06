@@ -5,6 +5,7 @@ import { TbWorld } from "react-icons/tb";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { RiHandCoinFill } from "react-icons/ri";
 import { SiRetroarch } from "react-icons/si";
+import { Login } from "@/components/Login";
 
 export default function Rules() {
   return (
@@ -42,9 +43,7 @@ export default function Rules() {
             <br />
           </p>
           <Link href="/game">
-            <button className="rounded-xl border-1 mt-8 border-yellow-200 bg-black text-white p-4 flex mx-auto text-xs">
-              Start Game
-            </button>
+            <Login/>
           </Link>
         </div>
       </main>

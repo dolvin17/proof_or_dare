@@ -65,7 +65,7 @@ export default function Home() {
           A game of <strong> Truth or Dare </strong>where your identity stays
           private
         </p>
-        <p className="animate-fade-left animate-once animate-duration-1000 animate-delay-1000 animate-ease-in-out">
+        <p className="animate-fade-left animate-once animate-duration-1000 animate-delay-100 animate-ease-in-out">
           Build your <strong>onchain reputation</strong>, prove your activity,
           and earn rewards.
         </p>

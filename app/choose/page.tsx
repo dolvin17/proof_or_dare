@@ -5,21 +5,21 @@ import Image from "next/image";
 export default function Choose() {
   return (
     <>
-      <div className="bg-[#ffffff]">
+      <div className="bg-[#ffffff] p-3  min-h-screen">
         <Link href="/">
           {" "}
-          <button className="m-3 rounded-xl border-[1px] items-center  border-black bg-white text-black p-4 flex mx-auto text-xs">
+          <button className=" rounded-xl border-[1px] items-center  border-black bg-white text-black p-4 flex mx-auto text-xs">
             <MdArrowBackIos />
             Back
           </button>
         </Link>
 
-        <h1 className="text-5xl py-8 font-bold text-center  bg-gradient-to-bl from-black/10 via-white to-black/10 ">
+        <h1 className="text-5xl py-8 font-bold text-center  ">
           System reputation
         </h1>
         <div
           aria-description="caja grande"
-          className="flex gap-1 m-1 text-md py-4  border-y-[1px] rounded-sm border-black"
+          className="flex gap-1 m-1 text-md py-16  border-y-[1px] rounded-sm border-black"
         >
           <div
             aria-description="caja izquierda"
